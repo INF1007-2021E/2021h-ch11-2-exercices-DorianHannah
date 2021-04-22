@@ -32,7 +32,7 @@ class Weapon:
 
 	@classmethod
 	def make_unarmed(cls):
-		return cls("Unarmed", cls.UNARMED_POWER, 1)
+		return cls("Coup de poing", cls.UNARMED_POWER, 1)
 
 
 class Character:
